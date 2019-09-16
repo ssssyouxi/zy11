@@ -1,0 +1,119 @@
+#index .index a, #about .about a, #product .product a, #news .news a, #server .server a, #contact .contact a {
+  color: #fe2805;
+}
+
+.top {
+  background-color: #222c45;
+}
+
+.top p {
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  position: relative;
+}
+
+.top p a {
+  color: #fff;
+}
+
+.top p a.chat {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+nav {
+  margin-top: 18px !important;
+}
+
+nav button {
+  margin-top: 20px !important;
+}
+
+nav ul.nav {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+nav ul.nav a:hover {
+  color: #fe2805;
+}
+
+.banner1 {
+  overflow: hidden;
+}
+
+.banner1 img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+}
+
+footer {
+  background-color: #222c45;
+  padding-top: 25px;
+}
+
+footer ul ul {
+  list-style: none !important;
+}
+
+footer ul ul p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+footer ul ul p a {
+  color: #fff !important;
+}
+
+footer ul ul li {
+  line-height: 26px;
+}
+
+footer ul ul li a {
+  color: #b1b1b1 !important;
+  line-height: 26px;
+}
+
+footer .h6 {
+  color: #8d8d8d;
+  line-height: 36px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 759px) {
+  header {
+    margin-bottom: 20px !important;
+  }
+  ul.nav {
+    margin: 0 !important;
+  }
+  ul.nav li {
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 760px) {
+  nav li {
+    padding-left: 9px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1000px) {
+  nav li {
+    padding-right: 17px;
+    padding-left: 0;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav li {
+    padding-right: 36px;
+  }
+}
